@@ -63,7 +63,7 @@ image = { version = "0.24", default-features = false }
 codespan-reporting = "0.11.0"
 # `fragile-send-sync-non-atomic-wasm` feature means we can't use WASM threads for rendering
 # It is enabled for now to avoid having to do a significant overhaul of the renderer just for wasm
-wgpu = { git = "https://github.com/cmrschwarz/wgpu.git", branch = "texture_shadow_lod", default-features = false, features = [
+wgpu = { git = "https://github.com/cmrschwarz/wgpu.git", branch = "texture_shadow_lod_testing", default-features = false, features = [
   "wgsl",
   "dx12",
   "metal",
@@ -71,7 +71,7 @@ wgpu = { git = "https://github.com/cmrschwarz/wgpu.git", branch = "texture_shado
   "naga-ir",
   "fragile-send-sync-non-atomic-wasm",
 ] }
-naga = { git = "https://github.com/cmrschwarz/wgpu.git", branch = "texture_shadow_lod", features = [
+naga = { git = "https://github.com/cmrschwarz/wgpu.git", branch = "texture_shadow_lod_testing", features = [
   "wgsl-in",
 ] }
 naga_oil = { path = "../naga_oil_copy", default-features = false, features = [

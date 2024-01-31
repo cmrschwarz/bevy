@@ -17,7 +17,7 @@ prune = []
 allow_deprecated = []
 
 [dependencies]
-naga = { git = "https://github.com/cmrschwarz/wgpu.git", branch = "texture_shadow_lod", features = [
+naga = { git = "https://github.com/cmrschwarz/wgpu.git", branch = "texture_shadow_lod_testing", features = [
     "wgsl-in",
     "wgsl-out",
     "clone",
